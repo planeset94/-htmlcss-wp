@@ -6,7 +6,7 @@
 }
 
 .main_container{
-    width: 90%;
+    width: 85%;
     margin: auto;
    
 }
@@ -46,6 +46,7 @@ div.photo{
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
+    position: relative;
 }
 div.cornice-colore{
     width: 100%;
@@ -53,14 +54,14 @@ div.cornice-colore{
     background-color: black;
     opacity: 0.2;
     border-radius: 1rem;
-    position: relative;
+    /* position: relative; */
 }
 
 div.testo{
-    width: 45%;
-    position: absolute;
-    bottom: 15rem;
-    left: 7rem;
+    width: 60%;
+    position: relative;
+    bottom:11.5rem;
+    left: 3rem;
     
 }
 div.testo>h3, div.testo>p{
@@ -86,11 +87,11 @@ p.paragraph-grey{
     color: darkgrey;
 }
 
-.cornice-nuova{
+.side-photo{
     position: relative;
     margin-bottom: 2rem;
 }
-.cornice-nuova .cornice-colore{
+.side-photo .cornice-colore{
     position: absolute;
     top:0;
     left:0;

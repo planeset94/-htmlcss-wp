@@ -32,17 +32,19 @@ header{
     height: 100px;
     background-color: #7575dc;
 }
-div.photo{
+.photo{
 width: 100%;
 height: 400px;
 float: left;
+margin:20px 0 10px 0;
 background-color: rgb(199, 120, 120);
 
 }
-div.title{
+.title{
     width: 100%;
     height: 100px;
     float: left;
+    margin:20px 0;
     background-color: lightgray;
 }
 
@@ -69,9 +71,10 @@ div.title{
     background-color: indigo;
 }
 
-div.img{
+aside.img{
     height:100px;
     border:1px solid black;
+    
     
 }
 
@@ -81,6 +84,7 @@ footer{
     background-color: burlywood;
     text-align: center;
     padding: 30px;
+    margin-top:20px;
 }
 span{
     color:red;
